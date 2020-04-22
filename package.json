@@ -1,0 +1,47 @@
+{
+  "name": "simple-plugin",
+  "version": "0.1.0",
+  "description": "Scaffolding for a cockpit module",
+  "main": "index.js",
+  "repository": "git@github.com:aiman-zaki/cockpit-simple-plugin.git",
+  "author": "",
+  "license": "LGPL-2.1",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "eslint": "eslint --ext .js --ext .jsx src/",
+    "eslint:fix": "eslint --fix --ext .js --ext .jsx src/"
+  },
+  "devDependencies": {
+    "@types/chart.js": "^2.9.19",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "@types/styled-components": "^5.1.0",
+    "chrome-remote-interface": "^0.28.0",
+    "compression-webpack-plugin": "^1.1.11",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^3.0.0",
+    "htmlparser": "^1.7.7",
+    "jed": "^1.1.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "po2json": "^1.0.0-alpha",
+    "sass-loader": "^7.0.3",
+    "sizzle": "^2.3.3",
+    "source-map-loader": "^0.2.4",
+    "stdio": "^0.2.7",
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "@patternfly/patternfly": "^2.71.5",
+    "@patternfly/react-charts": "^5.3.18",
+    "@patternfly/react-core": "^3.153.3",
+    "chart.js": "^2.9.3",
+    "core-js": "3.6.5",
+    "node-sass": "4.13.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
