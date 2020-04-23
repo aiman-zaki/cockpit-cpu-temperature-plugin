@@ -277,6 +277,25 @@ export  default class TemperatureLineGraph extends Component<any,any> {
                 ]
             },
             options: {
+                scales: {
+                    xAxes: [{
+                        display: "auto",
+                        gridLines: {
+                            display:false
+                        }
+                    }],
+                    yAxes: [{
+                        position:"right",
+                        display: "auto",
+                        gridLines: {
+                            display:false
+                        },
+                        ticks: {
+                            min: 0,
+                            stepSize: 10
+                        }
+                    }]
+                }
             }
         });
         return chart;
